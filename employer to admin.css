@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {    
+    font-family: poppins;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button {
+    background-color: #FF6b6b;
+    
+    background: #FF6B6B;
+    border-radius: 5px;
+}
+
+.modal {
+    display: none;
+    z-index: 1;
+    left: 0px;
+    top: 0px;                                                                      
+    overflow: auto;
+    background-color: rgba(15, 15, 15, 0.55);
+}
+
+.modal-content {
+    background-color: #ffffff;
+    width: 901px;
+    height: 530px;
+    left: 280px;
+    top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    animation-name: modalOpen;
+    animation-duration:1s ;
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-content {
+        background-color: #ffffff;
+        width: 600px;
+        height: 400px;
+        left: 70px;
+        top: 50px;
+        border-radius: 10px;
+        padding: 20px;
+        animation-name: modalOpen;
+        animation-duration:1s ;
+    }
+
+    .closeBtn {
+    
+        right: 10.28%;
+        left: 94%;
+        float: right;
+        top: 5%;
+        bottom: 75.88%;
+        height: 24px;
+        width: 24px;
+        cursor: pointer;
+        color: #343434;
+    }
+
+    .text {
+        position: absolute;
+        width: 140px;
+        height: 72px;
+        left: 41px;
+        top: 345px;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        
+        color: #343434;
+    }
+    .lower__body {
+        position: absolute;
+        transform: translateY(-90%);
+    }
+    
+}
+
+.closeBtn {
+    float: right;
+
+    left: 94%;
+    top: 10%;
+    bottom: 75.88%;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    color: #343434;
+}
+
+.upper__body {
+    transform: translateY(-90px);
+    right: 890px;
+}
+
+.lower__body {
+    position: absolute;
+    bottom: 630px;
+}
+
+.logo{
+    /* Rectangle 104 */
+    
+    background: #C4C4C4;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 390px;
+    top: 135px;
+    
+
+}
+
+.logo__text {
+    
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    padding: 20px 13px;
+    color: #FFFFFF;
+    
+}
+
+.employer-name {
+    position: absolute;
+    width: 205px;
+    height: 48px;
+    left: 350px;
+    top: 195px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 100% */
+    
+    color: #000000;
+}
+
+.about {
+    position: absolute;
+    width: 289px;
+    height: 32px;
+    left: 41px;
+    top: 280px;
+    
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+}
+
+.text {
+    position: absolute;
+    width: 740px;
+    height: 72px;
+    left: 41px;
+    top: 345px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    color: #343434;
+}
+
+.website {
+    position: absolute;
+    width: 68px;
+    height: 32px;
+    left: 41px;
+    top: 430px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+.website__link {
+    position: absolute;
+    width: 257px;
+    height: 24px;
+    left: 41px;
+    top: 470px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #00AEFF;
+
+}
+
+.block__button {
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    left: 330px;
+    top: 535px;
+    
+    background: #FF6B6B;
+    border-radius: 5px;
+
+}
+
+.button__text {
+    position: absolute;
+
+    top: 15px;
+    left: 70px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+@keyframes modalOpen {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
